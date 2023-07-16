@@ -36,6 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.formHeading{
+  color: rgb(115, 115, 166);
+}
 
 .box{
   height: 100%;
@@ -43,4 +46,9 @@
   margin-left: 10%
   ;
   border: solid red 4px;
+}
+
+.inputs{
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
