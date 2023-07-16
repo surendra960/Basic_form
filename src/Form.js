@@ -11,13 +11,18 @@ const [interest,setInterest] = useState("");
         e.preventDefault();
     }
 
-
+function clearValue()
+{
+    setName("");
+    setTnc("");
+    setInterest("");
+}
   return (
     <div>
         <h1>Handle form in react </h1>
         <form onSubmit = {stopSubmit}>
             <br />
-            <input type="text" placeholder='Enter Name' onChange={(e)=>setName(e.target.value)}/>
+            <input type="text" placeholder='Enter Name' value={name} onChange={(e)=>setName(e.target.value)}/>
             <br /><br />
             <select onChange={(e)=>setInterest(e.target.value)}>
                 <option >Select a Option</option>
@@ -28,6 +33,7 @@ const [interest,setInterest] = useState("");
             <input type="checkbox" onChange={(e)=>setTnc(e.target.checked)}/> <span>Accept Terms and Condtion</span>
             <br /><br />
             <button type ="submit">Submit</button>
+            <button onClick={clearValue}>Clear</button>
         </form>
 
     </div>
