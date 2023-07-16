@@ -18,15 +18,6 @@ export default function ConditionalRendering() {
             loggedIn==1 ? <h1>Welcome User1</h1> : loggedIn==2 ? <h1>Welcome User2 </h1> : loggedIn==3 ? <h1>Welcome User3</h1> : 
             <h1>User not defined </h1>
         }
-        {/* if({loggedIn }==1){
-            <h1>Welcome User1</h1> 
-        }
-        else if({loggedIn}==2){
-            <h1>Welcome User2</h1> 
-        }
-        else{
-            <h1>Welcome User3</h1> 
-        } */}
     </div>
   )
 }
