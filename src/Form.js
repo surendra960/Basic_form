@@ -35,7 +35,8 @@ function clearValue()
             <button type ="submit">Submit</button>
             <button onClick={clearValue}>Clear</button>
         </form>
-
+        <br/><br/>
+        
     </div>
   )
 }
