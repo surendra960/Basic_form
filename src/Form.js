@@ -2,7 +2,7 @@ import {useState} from 'react'
 
 function Form(){
 const [name,setName] = useState("");
-const [tnc,setTnc] = useState(true);
+const [tnc,setTnc] = useState("");
 const [interest,setInterest] = useState("");
 
 
