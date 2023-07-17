@@ -4,6 +4,7 @@ import ConditionalRendering from './ConditionalRendering';
 import BasicFormValidatio from './BasicFormValidatio';
 import PassFuctionAsProps from './PassFuctionAsProps';
 import Member from './Member';
+import Constructor from './Constructor';
 
 function App() {
   function getData(){
@@ -18,6 +19,7 @@ function App() {
       <div style={{Float : 'right'}}> 
         <Member data = {getData} />
       </div>
+      <Constructor />
     </div>
   );
 }
