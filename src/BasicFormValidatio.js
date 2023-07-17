@@ -61,6 +61,7 @@ function BasicFormValidatio() {
           <button className="inputs" type="submit">Login</button>
         </form>
       </div>
+      <br/><br />
     </div>
   );
 }
