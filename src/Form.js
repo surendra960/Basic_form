@@ -30,10 +30,10 @@ function clearValue()
                 <option >Maruti Suzuki</option>
             </select>
             <br /><br />
-            <input type="checkbox" onChange={(e)=>setTnc(e.target.checked)}/> <span>Accept Terms and Condtion</span>
+            <input className='btn' type="checkbox" onChange={(e)=>setTnc(e.target.checked)}/> <span>Accept Terms and Condtion</span>
             <br /><br />
-            <button type ="submit">Submit</button>
-            <button onClick={clearValue}>Clear</button>
+            <button className='btn' type ="submit">Submit</button>
+            <button className='btn leftM'  onClick={clearValue}>Clear</button>
         </form>
         <br/><br/>
         
