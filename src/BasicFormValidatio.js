@@ -58,7 +58,7 @@ function BasicFormValidatio() {
               placeholder="Enter user Password" onChange={passwordHandler}
             />{passErr?<span>User Not valid</span>:""}
           </div>
-          <button className="inputs" type="submit">Login</button>
+          <button  className="inputs btn" type="submit">Login</button>
         </form>
       </div>
       <br/><br />

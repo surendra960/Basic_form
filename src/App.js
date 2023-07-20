@@ -5,6 +5,7 @@ import BasicFormValidatio from './BasicFormValidatio';
 import PassFuctionAsProps from './PassFuctionAsProps';
 import Member from './Member';
 import Constructor from './Constructor';
+import UseEffectHook from './UseEffectHook';
 
 function App() {
   function getData(){
@@ -20,7 +21,10 @@ function App() {
         <Member data = {getData} />
       </div>
       <Constructor />
+      <UseEffectHook/>
+
     </div>
+    
   );
 }
 
