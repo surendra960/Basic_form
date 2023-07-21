@@ -6,6 +6,7 @@ import PassFuctionAsProps from './PassFuctionAsProps';
 import Member from './Member';
 import Constructor from './Constructor';
 import UseEffectHook from './UseEffectHook';
+import UseEffectWuseStateProps from './UseEffectWuseStateProps';
 
 function App() {
   function getData(){
@@ -22,6 +23,7 @@ function App() {
       </div>
       <Constructor />
       <UseEffectHook/>
+      <UseEffectWuseStateProps/>
 
     </div>
     
